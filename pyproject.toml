@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "langchain-academy"
+version = "0.1.0"
+description = ""
+authors = ["longtongster <sacha.van.weeren@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph = "^0.6.7"
+langgraph-prebuilt = "^0.6.4"
+langgraph-sdk = "^0.2.9"
+langgraph-checkpoint-sqlite = "^2.0.11"
+langsmith = "^0.4.31"
+langchain-community = "^0.3.29"
+langchain-core = "^0.3.76"
+langchain-openai = "^0.3.33"
+notebook = "^7.4.5"
+tavily-python = "^0.7.12"
+wikipedia = "^1.4.0"
+trustcall = "^0.0.39"
+langgraph-cli = {extras = ["inmem"], version = "^0.4.2"}
+langchain-tavily = "^0.2.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
